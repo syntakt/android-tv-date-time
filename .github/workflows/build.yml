@@ -105,10 +105,10 @@ jobs:
           sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev libudev-dev
         shell: bash
 
-      - name: Install macOS dependencies
-        if: runner.os == 'macOS'
+      #- name: Install macOS dependencies
+      #  if: runner.os == 'macOS'
       #  run: brew install openssl
-        shell: bash
+      #  shell: bash
 
       - name: Setup ADB
         shell: bash
