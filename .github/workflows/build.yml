@@ -107,7 +107,7 @@ jobs:
 
       - name: Install macOS dependencies
         if: runner.os == 'macOS'
-        run: brew install openssl
+      #  run: brew install openssl
         shell: bash
 
       - name: Setup ADB
